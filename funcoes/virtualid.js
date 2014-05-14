@@ -3,7 +3,7 @@ function aplicativo(app) {
 
 document.getElementById('pop').style.display='block';
 
-	document.getElementById("janela").innerHTML = '<IFRAME NAME="aplic" SRC="../aplicativos/'+app+'.htm" ALIGN="center" HEIGHT=300px WIDTH=500px SCROLLING="NO" FRAMEBORDER="0" allowtransparency="true"> </IFRAME>';
+	document.getElementById("janela").innerHTML = '<IFRAME NAME="aplic" SRC="aplicativos/'+app+'.htm" ALIGN="center" HEIGHT=300px WIDTH=500px SCROLLING="NO" FRAMEBORDER="0" allowtransparency="true"> </IFRAME>';
 
 
 }
@@ -13,7 +13,7 @@ function apresentacao(apre) {
 
 document.getElementById('pop').style.display='block';
 
-	document.getElementById("janela").innerHTML = '<IFRAME NAME="aplic" SRC="../apresentacoes/'+apre+'.pdf" ALIGN="center" HEIGHT=300px WIDTH=500px SCROLLING="YES" FRAMEBORDER="0" allowtransparency="true"> </IFRAME>';
+	document.getElementById("janela").innerHTML = '<IFRAME NAME="aplic" SRC="apresentacoes/'+apre+'.pdf" ALIGN="center" HEIGHT=300px WIDTH=500px SCROLLING="YES" FRAMEBORDER="0" allowtransparency="true"> </IFRAME>';
 
 
 }

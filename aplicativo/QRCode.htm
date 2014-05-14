@@ -1,0 +1,78 @@
+<HTML> 
+
+
+<head> 
+    <title> GERADOR - QR CODE </title> 
+
+<meta name="author" content="Digital Hologram">
+<meta http-equiv="content-language" content="pt-br">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Gerador de QRCode">
+<meta name="keywords" content="QRCode, codigo de barras, codigos de barras 2D, sistemas de rastreabilidade, virtual id">
+
+
+<link rel=”shortcut icon” href=”http://www.digitalhologram.com.br/favicon.ico”>
+
+<style type="text/css">
+body {
+background-color:transparent;
+}
+
+</style>
+
+<script> 
+
+
+function gerador(botao) {
+
+conteudo = document.formulario.teste.value;
+
+document.images[botao].src="http://chart.apis.google.com/chart?cht=qr&chl="+conteudo+"&chs=200x200";
+
+}
+
+</script>  
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-844480-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<BODY>
+
+<Center>
+
+<NOSCRIPT> 
+
+Este aplicativo utiliza funções Javascript. Por favor, altere a configuração de seu browser para permitir a execução do aplicativo.
+
+</NOSCRIPT> 
+
+Este aplicativo é apenas um demonstrativo e pode apresentar falhas.<BR>
+
+<FORM NAME="formulario">
+Digite o conteúdo do seu QRCode: <INPUT TYPE="text" NAME="teste" onKeyUp="gerador('foto')">
+
+</FORM>
+<img src="x.jpg" name="foto" width="150" weight="150"></A><BR>
+
+Para salvar seu QRCode, basta clicar com o botão direito<BR>
+do mouse e "salvar como".
+Conheça o <a href="javascript:window.open('../Sistema de Rastreabilidade Virtual ID.htm'), scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no"">
+sistema de rastreabilidade VIRTUAL ID.
+
+</Center>
+</BODY> 
+</HTML>

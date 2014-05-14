@@ -1,0 +1,140 @@
+<HTML>
+
+<HEAD>
+
+	<TITLE> VIRTUAL ID Painel v 1.0</TITLE>
+
+<meta name="author" content="Digital Hologram">
+<meta http-equiv="content-language" content="pt-br">
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Virtual ID, gerador qrcode, gerador datamatrix, leitor qrcode, leitor datamatrix, rastreabilidade anvisa">
+<meta name="keywords" content="Virtual ID, gerador qrcode, gerador datamatrix, leitor qrcode, leitor datamatrix, rastreabilidade anvisa">
+
+<meta property="og:url" content="http://www.digitalhologram.com.br/aplicativos/virtualidpainel.htm"/>
+<meta property="og:image" content="http://www.digitalhologram.com.br/imagens/logo_virtualid.jpg"/>
+
+<link rel=”shortcut icon” href=”http://v-id.net/favicon.ico”>
+
+
+<SCRIPT LANGUAGE="JavaScript" SRC="funcoes/virtualid.js"></SCRIPT>
+
+<script>
+var facebook = "http://www.facebook.com/sharer.php?u="+document.location.href;
+var twitter = "http://twitter.com/home?status="+document.location.href;
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-844480-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</HEAD>
+
+<BODY>
+
+<NOSCRIPT> 
+
+Este aplicativo utiliza funções Javascript. Por favor, altere a configuração de seu browser para permitir a execução do aplicativo.
+
+</NOSCRIPT> 
+
+<FONT FACE="Arial">
+
+<style type="text/css"> 
+body { 
+background-image: url("imagens/fundoblack.jpg"); 
+background-repeat: no-repeat; 
+background-position: 0px 0px;  
+} 
+
+a.dark:link, a.dark:visited {
+text-decoration: none;
+color: #FFFFFF;
+font-size:"13px";
+}
+
+a.dark:hover {
+text-decoration: none;
+font-weight: bold;
+color: #FFFFFF;
+font-size: "15px";
+background:#ffff;
+}
+
+#pop{display:none;z-index:2;position:absolute;top:10;left:250;width:600px;height:350px;border:0px solid #d0d0d0}
+
+</style> 
+
+
+<div style="position:relative;left:50px;top:20px">
+<font color="FFFFFF" size="3"><b>Sua chave para a rastreabilidade</b> - 
+<a href="http://www.linkedin.com/groups/Rastreabilidade-Medicamentos-Virtual-ID-Farma-5161765/about" class="dark">Participe do GRUPO de DISCUSSÃO: <img src="imagens/linkedinb.jpg" width=110 height=30 ></a><BR></font>
+</div>
+
+<div style="position:relative;left:450px;top:80px">
+<font color="FFFFFF" size="5">
+<a href="geradorweb.htm" class="dark">Gerador QRCODE - DATAMATRIX</a>
+</div>
+
+<div style="position:relative;left:450px;top:150px">
+<a href="javascript:aplicativo('leitorweb')" class="dark">Leitor QRCODE - DATAMATRIX</a>
+</div>
+
+<div style="position:relative;left:450px;top:220px">
+<a href="javascript:apresentacao('Virtual_ID_Farma')" class="dark">Apresentação VIRTUAL ID Farma</a>
+</div>
+
+</font>
+
+<div style="position:relative;left:450px;top:300px">
+<font size="3">
+
+<font color="ffffff">Compartilhe:</font>
+
+<img src="imagens/facebookb.jpg" border=0 width=30 height=30 OnClick="javascript:window.location.href=facebook"/> 
+
+<img src="imagens/twitterb.jpg" border=0 width=30 height=30 OnClick="javascript:window.location.href=twitter"/> 
+
+<a href="javascript:window.location.href = 'mailto:?subject=VIRTUAL ID - Sua Chave para a Rastreabilidade&body='+location.href;"><img src="../imagens/emailb.jpg" border=0 width=30 height=30 /></a>
+<br><br>
+
+<a href="http://www.digitalhologram.com.br" class="dark">Digital Hologram - Sistemas de Autenticidade e Rastreabilidade</a><BR>
+</font>
+<font color="FFFFFF" size="2">
++55 19 3462-7611 - Av. São Jeronimo, 2303 - Pq das Nações - Americana - SP
+</font>
+</div>
+
+
+
+<div id="pop">
+
+<a href="#" class="dark" onclick="document.getElementById('pop').style.display='none';">[Fechar]</a>
+<br />
+
+<IMG SRC="imagens/janela.gif" name="Logo1" width=550 height=350 >
+
+<font color="#000000">
+<div id="janela" name="janela" style="z-index:1; position: absolute; left: 35px; top:35px; background-color:#EBF0F5">
+
+</div>
+</font>
+
+
+</div>
+
+
+</BODY>
+
+
+</HTML>
